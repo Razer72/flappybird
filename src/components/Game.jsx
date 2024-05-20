@@ -10,7 +10,7 @@ export default function Game() {
     const [towers, setTowers] = useState([]);
 
     const birdWidth = 25;  // Width for the bird
-    const birdHeight = ; // Height for the bird
+    const birdHeight = 25; // Height for the bird
     const towerWidth = 80;
     const towerGap = 200;
     const initialOffset = window.innerWidth;
