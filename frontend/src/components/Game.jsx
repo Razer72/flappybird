@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
-import birdImage from '../img/bird.png';
+import birdImage from '../img/plane.png';
 
 export default function Game() {
     const [gameStarted, setGameStarted] = useState(false);
@@ -9,10 +9,10 @@ export default function Game() {
     const [birdVisible, setBirdVisible] = useState(false);
     const [towers, setTowers] = useState([]);
 
-    const birdWidth = 25;  // Width for the bird
-    const birdHeight = 25; // Height for the bird
-    const towerWidth = 80;
-    const towerGap = 200;
+    const birdWidth = 100;  // Width for the bird
+    const birdHeight = 70; // Height for the bird
+    const towerWidth = 60;
+    const towerGap = 300;
     const initialOffset = window.innerWidth;
 
     useEffect(() => {
